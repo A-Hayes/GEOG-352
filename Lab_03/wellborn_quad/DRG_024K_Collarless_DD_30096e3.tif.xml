@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>TNRIS</origin>
+				<pubdate>20000113</pubdate>
+				<title>o25097g3.tif</title>
+				<geoform>remote-sensing image</geoform>
+				<pubinfo>
+					<pubplace>Austin, TX</pubplace>
+					<publish>TNRIS</publish>
+				</pubinfo>
+				<onlink></onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+The Digital Raster Graphic (DRG) is a scanned image of a US Geological
+Survey (USGS) standard series topographic map that includes all collar information
+(e.g., legend, scale bar, index map, etc.) The DRGE is a non-proprietary product
+of a USGS DRG in which the map collar information has been removed.
+</abstract>
+			<purpose>
+The DRGE is useful as a source or background layer in a GIS, as a means to
+perform quality assurance on other digital products, and as a source for the
+collection and revision of DLG data.  The DRGE can also be merged with other
+digital data, e.g. DEM's or DOQ's, to produce a hybrid digital file. The removal
+of the collar information allows the DRGE to be edge-matched and displayed
+simultaneously in a Geographic Information System.
+</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1995</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Source Map</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc></westbc>
+				<eastbc></eastbc>
+				<northbc></northbc>
+				<southbc></southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Digital Raster Graphic</themekey>
+				<themekey>DRG</themekey>
+				<themekey>Topographic Map</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>United States</placekey>
+				<placekey>TX</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>
+Should not be used at scales greater than 1:24000. These data were
+initially developed by the USGS and enhanced by Texas Natural Resource Information System (TNRIS). Please
+acknowledge TNRIS and the USGS in products derived from these data.
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>TNRIS</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 13231</address>
+					<city>Austin</city>
+					<state>TX</state>
+					<postal>78711-3231</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>512 463 8337</cntvoice>
+				<cntfax>512 463 7274</cntfax>
+				<cntemail>data@tnris.state.tx.us</cntemail>
+				<hours>8:00 am - 5:00pm</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>
+The original DRG was produced through an Innovative Partnership
+agreement between The Land Information Technology Company, Ltd., of Aurora,
+CO and the USGS.
+</datacred>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.0.0.535</native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>
+The DRGE is an 8-bit color image that employs a
+color palette to ensure uniform colors throughout a particular DRG series.
+All DRG's within a series must have the same RGB value.
+</attraccr>
+		</attracc>
+		<logic>N/A</logic>
+		<complete>
+According to the USGS, the DRG is a faithfully reproduced
+digital image of the original source map.  Some differences may be detected
+between the source graphic used and the DRG due to the RGB values assigned
+that particular color.  The intent is to recreate those colors as near as
+possible.  Data completeness for DRG files reflect content of the source graphic.
+Features may have been eliminated or generalized on the source graphic due to
+scale and legibility constraints.
+</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>
+The datum of the published map is retained to be
+consistent with other USGS digital data.
+</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>N/A</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>DRG is imported to GRID via imagegrid command.  The appropriate 'clip' coverage is       selected from the master listing of 'clip' coverages based on USGS topo grid system.  The GRID of the DRG is       then re-projected from its UTM zone to geographic, decimal degrees, NAD 27, to form a second GRID.  The       resultant GRID from the projection routine is then 'clipped' using 'gridclip' command against the clip       coverage (as described in Step 2; also DD NAD 27) to create an intermediate working GRID.  'No Data' areas in       the intermediate working GRID are then re-set to the value '13' (13 is the first available number in the color       map for standard USGS DRGs).  To minimize the areas where the value '13' occur, the '.bnd' of the working GRID       was deleted and then replaced by the '.bnd' from the clip cover to produce a final GRID.  The final GRID is       then both exported straight away to TIFF format using the 'gridimage' command in geographic DD NAD83, and       re-projected to UTM NAD83 before also being exported as a TIFF format image in UTM NAD83; also using the       'gridimage' command.</procdesc>
+				<procdate>20021031</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>TNRIS</cntorg>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>PO Box 13231</address>
+							<city>Austin</city>
+							<state>TX</state>
+							<postal>78711-3231</postal>
+						</cntaddr>
+						<cntvoice>512 463 8337</cntvoice>
+						<cntfax>512 463 7274</cntfax>
+						<cntemail>data@tnris.state.tx.us</cntemail>
+						<hours>8:00 am - 5:00 pm</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\rmitchel\LOCALS~1\Temp\xml28.tmp</srcused>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\rmitchel\LOCALS~1\Temp\xml55F.tmp</srcused><date Sync="TRUE">20041230</date><time Sync="TRUE">10372800</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Raster</direct>
+		<rastinfo>
+			<rasttype>Pixel</rasttype>
+			<rowcount>5396</rowcount>
+			<colcount>5396</colcount>
+			<vrtcount>1</vrtcount>
+		</rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<geogunit>Decimal degrees</geogunit>
+			</geograph>
+			<planar>
+				<planci>
+					<plance>row and column</plance>
+					<coordrep>
+						<absres>0.000023</absres>
+						<ordres>0.000023</ordres>
+					</coordrep>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1927</horizdn>
+				<ellips>Clarke 1866</ellips>
+				<semiaxis>6378206.400000</semiaxis>
+				<denflat>294.978698</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>Band_1</enttypl>
+			</enttyp>
+			<attr>
+				<attrlabl>ObjectID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Value</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Red</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Green</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Blue</attrlabl>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>
+Each raster entity or pixel contains a color
+index from 0 through 12 referencing a color palette of RGB values from
+0 through 255 in which the standard colors used in the DRGE are defined.
+
+DRGE Color Palette
+
+Digital Number    Color       Red      Green    Blue
+
+0           Black       0        0        0
+1           White       255      255      255
+2           Blue        0        151      164
+3           Red         203      0        23
+4           Brown       131      66       37
+5           Green       201      234      157
+6           Purple      137      51       128
+7           Yellow      255      234      0
+8        Light Blue     167      226      226
+9        Light Red      255      184      184
+10       Light Purple   218      179      214
+11       Light Grey     209      209      209
+12       Light Brown    207      164      142
+</eaover>
+			<eadetcit>None.</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>TNRIS</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 13231</address>
+					<city>Austin</city>
+					<state>TX</state>
+					<postal>78711-3231</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>512 463 8337</cntvoice>
+				<cntfax>512 463 7274</cntfax>
+				<cntemail>data@tnris.state.tx.us</cntemail>
+				<hours>8:00 am - 5:00 pm</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>
+Although these data have been processed successfully on a
+computer system at TNRIS, no warranty expressed or implied is
+made by TNRIS regarding the use of the data on any other system,
+nor does the act of distribution constitute any such warranty.
+</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Tiff</formname>
+					<formvern>6.0</formvern>
+					<filedec>Packbits</filedec>
+					<transize>0.625</transize>
+				</digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+						<recfmt>ISO 9660 Level 1, Mode 1.</recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>None</fees>
+			<ordering>Download the DRG you need from the Digital Data Download page of the TNRIS website. http://www.tnris.state.tx.us/digital.htm</ordering>
+		</stdorder>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>TIFF</formname>
+					<formvern>6.0</formvern>
+					<filedec>Packbits</filedec>
+					<transize>0.625</transize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.tnris.state.tx.us/digital.htm</networkr>
+							</networka>
+						</computer>
+						<accinstr>Free Download</accinstr>
+					</onlinopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+						<recfmt>ISO 9660 Level 1, Mode 1.</recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20041229</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>TNRIS</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 13231</address>
+					<city>Austin</city>
+					<state>TX</state>
+					<postal>78711-3231</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>512 463 8337</cntvoice>
+				<cntfax>512 463 7274</cntfax>
+				<cntemail>data@tnris.state.tx.us</cntemail>
+				<hours>8:00 am - 5:00 pm</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+	</metainfo>
+	<Esri><MetaID>{BD55B3BF-3954-4DE7-8F92-942596CA413A}</MetaID><CreaDate>20041230</CreaDate><CreaTime>10372800</CreaTime><SyncOnce>TRUE</SyncOnce></Esri></metadata>

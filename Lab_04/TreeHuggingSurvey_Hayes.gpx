@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GDAL 1.10.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <bounds minlat="30.610650000000000" minlon="-96.340496000000002" maxlat="30.613795000000000" maxlon="-96.337552000000002" />
+  </metadata>
+  <wpt lat="30.611557" lon="-96.337975">
+    <ele>117.946709</ele>
+    <time>2019-02-10T21:43:17Z</time>
+    <name>001-60"</name>
+    <cmt>CYPRESS</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.611557</gpxx:lat>
+      <gpxx:lon>-96.337975</gpxx:lon>
+      <gpxx:y_proj>3389574.219185303</gpxx:y_proj>
+      <gpxx:x_proj>755201.850081324</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 15:43:17</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.61138" lon="-96.337803">
+    <ele>109.04232</ele>
+    <time>2019-02-10T21:54:36Z</time>
+    <name>002-95"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.61138</gpxx:lat>
+      <gpxx:lon>-96.337803</gpxx:lon>
+      <gpxx:y_proj>3389554.9845944261</gpxx:y_proj>
+      <gpxx:x_proj>755218.80972760846</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 15:54:36</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.611452" lon="-96.337729">
+    <ele>106.055099</ele>
+    <time>2019-02-10T22:07:28Z</time>
+    <name>003-90"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.611452</gpxx:lat>
+      <gpxx:lon>-96.337729</gpxx:lon>
+      <gpxx:y_proj>3389563.1357342047</gpxx:y_proj>
+      <gpxx:x_proj>755225.71739178628</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:07:28</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.611359" lon="-96.337645">
+    <ele>112.828644</ele>
+    <time>2019-02-10T22:21:57Z</time>
+    <name>004-85"</name>
+    <cmt>MAGNOLIA</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.611359</gpxx:lat>
+      <gpxx:lon>-96.337645</gpxx:lon>
+      <gpxx:y_proj>3389553.0149669284</gpxx:y_proj>
+      <gpxx:x_proj>755234.01725002599</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:21:57</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.611452" lon="-96.337575">
+    <ele>112.892227</ele>
+    <time>2019-02-10T22:23:42Z</time>
+    <name>005-72"</name>
+    <cmt>MAGNOLIA</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.611452</gpxx:lat>
+      <gpxx:lon>-96.337575</gpxx:lon>
+      <gpxx:y_proj>3389563.4854398873</gpxx:y_proj>
+      <gpxx:x_proj>755240.48616518825</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:23:42</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.61127" lon="-96.337618">
+    <ele>111.938919</ele>
+    <time>2019-02-10T22:26:13Z</time>
+    <name>006-115"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.61127</gpxx:lat>
+      <gpxx:lon>-96.337618</gpxx:lon>
+      <gpxx:y_proj>3389543.2082719612</gpxx:y_proj>
+      <gpxx:x_proj>755236.84024677589</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:26:13</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.611205" lon="-96.337646">
+    <ele>113.425674</ele>
+    <time>2019-02-10T22:27:14Z</time>
+    <name>007-80"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.611205</gpxx:lat>
+      <gpxx:lon>-96.337646</gpxx:lon>
+      <gpxx:y_proj>3389535.9377173292</gpxx:y_proj>
+      <gpxx:x_proj>755234.32566137169</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:27:14</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.611207" lon="-96.337696">
+    <ele>114.080032</ele>
+    <time>2019-02-10T22:28:19Z</time>
+    <name>008-68"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.611207</gpxx:lat>
+      <gpxx:lon>-96.337696</gpxx:lon>
+      <gpxx:y_proj>3389536.0459308368</gpxx:y_proj>
+      <gpxx:x_proj>755229.52534219786</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:28:19</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.611172" lon="-96.337824">
+    <ele>112.690414</ele>
+    <time>2019-02-10T22:29:41Z</time>
+    <name>009-65"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.611172</gpxx:lat>
+      <gpxx:lon>-96.337824</gpxx:lon>
+      <gpxx:y_proj>3389531.8746028799</gpxx:y_proj>
+      <gpxx:x_proj>755217.34185039892</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:29:41</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.611141" lon="-96.337855">
+    <ele>114.466248</ele>
+    <time>2019-02-10T22:30:24Z</time>
+    <name>010-65"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.611141</gpxx:lat>
+      <gpxx:lon>-96.337855</gpxx:lon>
+      <gpxx:y_proj>3389528.3670422095</gpxx:y_proj>
+      <gpxx:x_proj>755214.45028801728</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:30:24</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.611211" lon="-96.338003">
+    <ele>108.863029</ele>
+    <time>2019-02-10T22:31:37Z</time>
+    <name>011-85"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.611211</gpxx:lat>
+      <gpxx:lon>-96.338003</gpxx:lon>
+      <gpxx:y_proj>3389535.7923512873</gpxx:y_proj>
+      <gpxx:x_proj>755200.07312425668</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:31:37</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.611082" lon="-96.337862">
+    <ele>107.856049</ele>
+    <time>2019-02-10T22:32:43Z</time>
+    <name>012-80"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.611082</gpxx:lat>
+      <gpxx:lon>-96.337862</gpxx:lon>
+      <gpxx:y_proj>3389521.8094358672</gpxx:y_proj>
+      <gpxx:x_proj>755213.93386362598</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:32:43</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.611041" lon="-96.337661">
+    <ele>110.442642</ele>
+    <time>2019-02-10T22:33:46Z</time>
+    <name>013-78"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.611041</gpxx:lat>
+      <gpxx:lon>-96.337661</gpxx:lon>
+      <gpxx:y_proj>3389517.7199120857</gpxx:y_proj>
+      <gpxx:x_proj>755233.3177029877</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:33:46</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.610999" lon="-96.337876">
+    <ele>113.334969</ele>
+    <time>2019-02-10T22:34:50Z</time>
+    <name>014-72"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.610999</gpxx:lat>
+      <gpxx:lon>-96.337876</gpxx:lon>
+      <gpxx:y_proj>3389512.5749000604</gpxx:y_proj>
+      <gpxx:x_proj>755212.80913114559</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:34:50</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.611116" lon="-96.338005">
+    <ele>112.881424</ele>
+    <time>2019-02-10T22:35:58Z</time>
+    <name>015-100"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.611116</gpxx:lat>
+      <gpxx:lon>-96.338005</gpxx:lon>
+      <gpxx:y_proj>3389525.2545457827</gpxx:y_proj>
+      <gpxx:x_proj>755200.13070055889</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:35:58</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.611006" lon="-96.337991">
+    <ele>111.447647</ele>
+    <time>2019-02-10T22:36:56Z</time>
+    <name>016-72"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.611006</gpxx:lat>
+      <gpxx:lon>-96.337991</gpxx:lon>
+      <gpxx:y_proj>3389513.0899214246</gpxx:y_proj>
+      <gpxx:x_proj>755201.76207607146</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:36:56</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.610983" lon="-96.338073">
+    <ele>114.127686</ele>
+    <time>2019-02-10T22:37:48Z</time>
+    <name>017-85"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.610983</gpxx:lat>
+      <gpxx:lon>-96.338073</gpxx:lon>
+      <gpxx:y_proj>3389510.3535840889</gpxx:y_proj>
+      <gpxx:x_proj>755193.95852288173</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:37:48</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.610987" lon="-96.338076">
+    <ele>111.534309</ele>
+    <time>2019-02-10T22:38:28Z</time>
+    <name>018-55"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.610987</gpxx:lat>
+      <gpxx:lon>-96.338076</gpxx:lon>
+      <gpxx:y_proj>3389510.7902786373</gpxx:y_proj>
+      <gpxx:x_proj>755193.66031832842</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:38:28</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.610917" lon="-96.338041">
+    <ele>111.328072</ele>
+    <time>2019-02-10T22:39:49Z</time>
+    <name>019-66"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.610917</gpxx:lat>
+      <gpxx:lon>-96.338041</gpxx:lon>
+      <gpxx:y_proj>3389503.1083918479</gpxx:y_proj>
+      <gpxx:x_proj>755197.20062259852</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:39:49</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.61083" lon="-96.338094">
+    <ele>108.6689</ele>
+    <time>2019-02-10T22:41:58Z</time>
+    <name>020-90"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.61083</gpxx:lat>
+      <gpxx:lon>-96.338094</gpxx:lon>
+      <gpxx:y_proj>3389493.3418065864</gpxx:y_proj>
+      <gpxx:x_proj>755192.34620477085</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:41:58</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.610758" lon="-96.338065">
+    <ele>108.792824</ele>
+    <time>2019-02-10T22:43:12Z</time>
+    <name>021-90"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.610758</gpxx:lat>
+      <gpxx:lon>-96.338065</gpxx:lon>
+      <gpxx:y_proj>3389485.424543689</gpxx:y_proj>
+      <gpxx:x_proj>755195.31635148334</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:43:12</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.610759" lon="-96.338015">
+    <ele>112.559731</ele>
+    <time>2019-02-10T22:43:45Z</time>
+    <name>022-85"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.610759</gpxx:lat>
+      <gpxx:lon>-96.338015</gpxx:lon>
+      <gpxx:y_proj>3389485.6489428575</gpxx:y_proj>
+      <gpxx:x_proj>755200.10881635535</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:43:45</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.610697" lon="-96.337961">
+    <ele>108.512115</ele>
+    <time>2019-02-10T22:44:45Z</time>
+    <name>023-58"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.610697</gpxx:lat>
+      <gpxx:lon>-96.337961</gpxx:lon>
+      <gpxx:y_proj>3389478.8972089868</gpxx:y_proj>
+      <gpxx:x_proj>755205.45026667987</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:44:45</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.6108" lon="-96.337911">
+    <ele>107.828842</ele>
+    <time>2019-02-10T22:45:44Z</time>
+    <name>024-66"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.6108</gpxx:lat>
+      <gpxx:lon>-96.337911</gpxx:lon>
+      <gpxx:y_proj>3389490.4310120977</gpxx:y_proj>
+      <gpxx:x_proj>755209.9749741737</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:45:44</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.61065" lon="-96.337921">
+    <ele>110.09655</ele>
+    <time>2019-02-10T22:46:59Z</time>
+    <name>025-100"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.61065</gpxx:lat>
+      <gpxx:lon>-96.337921</gpxx:lon>
+      <gpxx:y_proj>3389473.7768365541</gpxx:y_proj>
+      <gpxx:x_proj>755209.40972023248</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:46:59</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.610665" lon="-96.337864">
+    <ele>113.451088</ele>
+    <time>2019-02-10T22:47:50Z</time>
+    <name>026-90"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.610665</gpxx:lat>
+      <gpxx:lon>-96.337864</gpxx:lon>
+      <gpxx:y_proj>3389475.5694063762</gpxx:y_proj>
+      <gpxx:x_proj>755214.83675195603</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:47:50</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.610818" lon="-96.337776">
+    <ele>109.732864</ele>
+    <time>2019-02-10T22:48:49Z</time>
+    <name>027-80"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.610818</gpxx:lat>
+      <gpxx:lon>-96.337776</gpxx:lon>
+      <gpxx:y_proj>3389492.7333228588</gpxx:y_proj>
+      <gpxx:x_proj>755222.87445788563</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:48:49</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.610878" lon="-96.337643">
+    <ele>111.105347</ele>
+    <time>2019-02-10T22:49:40Z</time>
+    <name>028-75"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.610878</gpxx:lat>
+      <gpxx:lon>-96.337643</gpxx:lon>
+      <gpxx:y_proj>3389499.6879199841</gpxx:y_proj>
+      <gpxx:x_proj>755235.47186818498</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:49:40</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.610853" lon="-96.337552">
+    <ele>113.012161</ele>
+    <time>2019-02-10T22:50:29Z</time>
+    <name>029-85"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.610853</gpxx:lat>
+      <gpxx:lon>-96.337552</gpxx:lon>
+      <gpxx:y_proj>3389497.122654113</gpxx:y_proj>
+      <gpxx:x_proj>755244.26455914497</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:50:29</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.610826" lon="-96.337607">
+    <ele>109.363495</ele>
+    <time>2019-02-10T22:51:09Z</time>
+    <name>030-85"</name>
+    <cmt>OAK</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.610826</gpxx:lat>
+      <gpxx:lon>-96.337607</gpxx:lon>
+      <gpxx:y_proj>3389494.0040922547</gpxx:y_proj>
+      <gpxx:x_proj>755239.0608505772</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:51:09</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.613795" lon="-96.340454">
+    <ele>116.482094</ele>
+    <time>2019-02-10T22:55:49Z</time>
+    <name>RSW</name>
+    <cmt>Rudder Statue
+Bottom Left(if facing statue)</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.613795</gpxx:lat>
+      <gpxx:lon>-96.340454</gpxx:lon>
+      <gpxx:y_proj>3389816.7344756769</gpxx:y_proj>
+      <gpxx:x_proj>754958.24190429295</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:55:49</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.61375" lon="-96.340496">
+    <ele>117.109024</ele>
+    <time>2019-02-10T22:56:25Z</time>
+    <name>RSE</name>
+    <cmt>Rudder Statue
+Bottom Right
+(if facing statue)</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.61375</gpxx:lat>
+      <gpxx:lon>-96.340496</gpxx:lon>
+      <gpxx:y_proj>3389811.6497607329</gpxx:y_proj>
+      <gpxx:x_proj>754954.33218395524</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:56:25</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.613731" lon="-96.34049">
+    <ele>115.468735</ele>
+    <time>2019-02-10T22:56:41Z</time>
+    <name>RNE</name>
+    <cmt>Rudder Statue
+Top Right
+(if facing statue)</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.613731</gpxx:lat>
+      <gpxx:lon>-96.34049</gpxx:lon>
+      <gpxx:y_proj>3389809.5567201558</gpxx:y_proj>
+      <gpxx:x_proj>754954.95740936592</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:56:41</gpxx:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="30.613753" lon="-96.340452">
+    <ele>114.19458</ele>
+    <time>2019-02-10T22:56:59Z</time>
+    <name>RNW</name>
+    <cmt>Rudder Statue
+Top Left
+(if facing statue)</cmt>
+    <src>garmin GPSMAP 78 So</src>
+    <sym>Flag, Blue</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>30.613753</gpxx:lat>
+      <gpxx:lon>-96.340452</gpxx:lon>
+      <gpxx:y_proj>3389812.0822040606</gpxx:y_proj>
+      <gpxx:x_proj>754958.54386038706</gpxx:x_proj>
+      <gpxx:ltime>2019/02/10 16:56:59</gpxx:ltime>
+    </extensions>
+  </wpt>
+</gpx>

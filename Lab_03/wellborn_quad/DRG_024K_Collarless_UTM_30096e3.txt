@@ -1,0 +1,273 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: TNRIS
+      Publication_Date: 20000113
+      Title: o25097g3.tif
+      Geospatial_Data_Presentation_Form: remote-sensing image
+      Publication_Information:
+        Publication_Place: Austin, TX
+        Publisher: TNRIS
+      Online_Linkage: 
+  Description:
+    Abstract:
+      The Digital Raster Graphic (DRG) is a scanned image of a US Geological
+      Survey (USGS) standard series topographic map that includes all collar information
+      (e.g., legend, scale bar, index map, etc.) The DRGE is a non-proprietary product
+      of a USGS DRG in which the map collar information has been removed.
+    Purpose:
+      The DRGE is useful as a source or background layer in a GIS, as a means to
+      perform quality assurance on other digital products, and as a source for the
+      collection and revision of DLG data.  The DRGE can also be merged with other
+      digital data, e.g. DEM's or DOQ's, to produce a hybrid digital file. The removal
+      of the collar information allows the DRGE to be edge-matched and displayed
+      simultaneously in a Geographic Information System.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 1995
+    Currentness_Reference: Source Map
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: 
+      East_Bounding_Coordinate: 
+      North_Bounding_Coordinate: 
+      South_Bounding_Coordinate: 
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Digital Raster Graphic
+      Theme_Keyword: DRG
+      Theme_Keyword: Topographic Map
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: United States
+      Place_Keyword: TX
+  Access_Constraints: None
+  Use_Constraints:
+    Should not be used at scales greater than 1:24000. These data were
+    initially developed by the USGS and enhanced by Texas Natural Resource Information System (TNRIS). Please
+    acknowledge TNRIS and the USGS in products derived from these data.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: TNRIS
+      Contact_Address:
+        Address_Type: mailing address
+        Address: PO Box 13231
+        City: Austin
+        State_or_Province: TX
+        Postal_Code: 78711-3231
+        Country: USA
+      Contact_Voice_Telephone: 512 463 8337
+      Contact_Facsimile_Telephone: 512 463 7274
+      Contact_Electronic_Mail_Address: data@tnris.state.tx.us
+      Hours_of_Service: 8:00 am - 5:00pm
+  Data_Set_Credit:
+    The original DRG was produced through an Innovative Partnership
+    agreement between The Land Information Technology Company, Ltd., of Aurora,
+    CO and the USGS.
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.0.0.535
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      The DRGE is an 8-bit color image that employs a
+      color palette to ensure uniform colors throughout a particular DRG series.
+      All DRG's within a series must have the same RGB value.
+  Logical_Consistency_Report: N/A
+  Completeness_Report:
+    According to the USGS, the DRG is a faithfully reproduced
+    digital image of the original source map.  Some differences may be detected
+    between the source graphic used and the DRG due to the RGB values assigned
+    that particular color.  The intent is to recreate those colors as near as
+    possible.  Data completeness for DRG files reflect content of the source graphic.
+    Features may have been eliminated or generalized on the source graphic due to
+    scale and legibility constraints.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        The datum of the published map is retained to be
+        consistent with other USGS digital data.
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: N/A
+  Lineage:
+    Process_Step:
+      Process_Description: DRG is imported to GRID via imagegrid command.  The appropriate 'clip' coverage is       selected from the master listing of 'clip' coverages based on USGS topo grid system.  The GRID of the DRG is         then re-projected from its UTM zone to geographic, decimal degrees, NAD 27, to form a second GRID.  The             resultant GRID from the projection routine is then 'clipped' using 'gridclip' command against the clip       coverage (as described in Step 2; also DD NAD 27) to create an intermediate working GRID.  'No Data' areas in       the intermediate working GRID are then re-set to the value '13' (13 is the first available number in the color       map for standard USGS DRGs).  To minimize the areas where the value '13' occur, the '.bnd' of the working GRID       was deleted and then replaced by the '.bnd' from the clip cover to produce a final GRID.  The final GRID is          then both exported straight away to TIFF format using the 'gridimage' command in geographic DD NAD83, and       re-projected to UTM NAD83 before also being exported as a TIFF format image in UTM NAD83; also using the       'gridimage' command.
+      Process_Date: 20021031
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: TNRIS
+          Contact_Address:
+            Address_Type: mailing address
+            Address: PO Box 13231
+            City: Austin
+            State_or_Province: TX
+            Postal_Code: 78711-3231
+          Contact_Voice_Telephone: 512 463 8337
+          Contact_Facsimile_Telephone: 512 463 7274
+          Contact_Electronic_Mail_Address: data@tnris.state.tx.us
+          Hours_of_Service: 8:00 am - 5:00 pm
+    Process_Step:
+      Process_Description: Metadata imported.
+      Source_Used_Citation_Abbreviation: 
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Raster
+  Raster_Object_Information:
+    Raster_Object_Type: Pixel
+    Row_Count: 5730
+    Column_Count: 5200
+    Vertical_Count: 1
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 14
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999600
+            Longitude_of_Central_Meridian: -99.000000
+            Latitude_of_Projection_Origin: 0.000000
+            False_Easting: 500000.000000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: row and column
+        Coordinate_Representation:
+          Abscissa_Resolution: 2.444567
+          Ordinate_Resolution: 2.444567
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Band_1
+    Attribute:
+      Attribute_Label: ObjectID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Value
+    Attribute:
+      Attribute_Label: Red
+    Attribute:
+      Attribute_Label: Green
+    Attribute:
+      Attribute_Label: Blue
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      Each raster entity or pixel contains a color
+      index from 0 through 12 referencing a color palette of RGB values from
+      0 through 255 in which the standard colors used in the DRGE are defined.
+
+      DRGE Color Palette
+
+      Digital Number    Color       Red      Green    Blue
+
+      0           Black       0        0        0
+      1           White       255      255      255
+      2           Blue        0        151      164
+      3           Red         203      0        23
+      4           Brown       131      66       37
+      5           Green       201      234      157
+      6           Purple      137      51       128
+      7           Yellow      255      234      0
+      8        Light Blue     167      226      226
+      9        Light Red      255      184      184
+      10       Light Purple   218      179      214
+      11       Light Grey     209      209      209
+      12       Light Brown    207      164      142
+    Entity_and_Attribute_Detail_Citation: None.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: TNRIS
+      Contact_Address:
+        Address_Type: mailing address
+        Address: PO Box 13231
+        City: Austin
+        State_or_Province: TX
+        Postal_Code: 78711-3231
+        Country: USA
+      Contact_Voice_Telephone: 512 463 8337
+      Contact_Facsimile_Telephone: 512 463 7274
+      Contact_Electronic_Mail_Address: data@tnris.state.tx.us
+      Hours_of_Service: 8:00 am - 5:00 pm
+  Resource_Description: Downloadable Data
+  Distribution_Liability:
+    Although these data have been processed successfully on a
+    computer system at TNRIS, no warranty expressed or implied is
+    made by TNRIS regarding the use of the data on any other system,
+    nor does the act of distribution constitute any such warranty.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Tiff
+        Format_Version_Number: 6.0
+        File_Decompression_Technique: Packbits
+        Transfer_Size: 0.650
+      Digital_Transfer_Option:
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660 Level 1, Mode 1.
+    Fees: None
+    Ordering_Instructions: Download the DRG you need from the Digital Data Download page of the TNRIS website. http://www.tnris.state.tx.us/digital.htm
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: TIFF
+        Format_Version_Number: 6.0
+        File_Decompression_Technique: Packbits
+        Transfer_Size: 0.650
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://www.tnris.state.tx.us/digital.htm
+          Access_Instructions: Free Download
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660 Level 1, Mode 1.
+Metadata_Reference_Information:
+  Metadata_Date: 20041229
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: TNRIS
+        Contact_Person: REQUIRED: The person responsible for the metadata information.
+      Contact_Address:
+        Address_Type: mailing address
+        Address: PO Box 13231
+        City: Austin
+        State_or_Province: TX
+        Postal_Code: 78711-3231
+        Country: USA
+      Contact_Voice_Telephone: 512 463 8337
+      Contact_Facsimile_Telephone: 512 463 7274
+      Contact_Electronic_Mail_Address: data@tnris.state.tx.us
+      Hours_of_Service: 8:00 am - 5:00 pm
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
